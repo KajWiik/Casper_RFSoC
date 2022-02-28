@@ -75,7 +75,7 @@ XILINX_PATH=/opt/Xilinx/Vivado/2020.2
 MATLAB_PATH=/opt/MATLAB/R2019a
 PLATFORM=lin64
 JASPER_BACKEND=vitis
-export XLNX_DT_REPO_PATH=/$HOME/casper/xilinx/device-tree-xlnx
+export XLNX_DT_REPO_PATH=$HOME/casper/xilinx/device-tree-xlnx
 ```
 ## Test the toolflow
 
