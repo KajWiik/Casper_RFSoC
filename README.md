@@ -43,7 +43,7 @@ Close and re-open your current shell. Your prompt should now look like this:
 (base) donald@rfsoc:~/casper$
 ```
 
-Create casper environment using a definition file (thanks to Mitch Burnett for providing the original file!) that can be downloaded from here: [casper-env.yml](https://version.aalto.fi/gitlab/vlbipol/polarisation-backend/-/raw/master/development_tools/casper-env.yml).
+Create casper environment using a definition file (thanks to Mitch Burnett for providing the original file!) that can be downloaded from here: [casper-env.yml](https://raw.githubusercontent.com/KajWiik/Casper_RFSoC/main/casper-env.yml).
 
 ```
 cd casper
