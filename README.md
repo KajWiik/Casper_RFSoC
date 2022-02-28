@@ -40,7 +40,6 @@ Run conda init:
 Do you wish the installer to initialize Miniconda3
 by running conda init? [yes|no]
 [no] >>> yes
-
 ```
 Close and re-open your current shell. 
 
