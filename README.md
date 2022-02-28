@@ -1,21 +1,25 @@
 # Installing the CASPER toolflow for RFSoC hardware and testing the setup
 
+Thanks to Mitch Burnett, Jack Hickish, Derek McKay and Amleset Kelati!
+
 ## Initial setup
 
 It is assumed that you have:
 
-- connected to the container using X2Go, and
+- Ubuntu 18.04 OS environment
 - MATLAB version R2019a is installed in /opt.
 - Xilinx Vivado version 2020.2 is also installed in /opt
 
-When using the container for the first time, please start matlab from the terminal command line first to activate and set up the license.
- 
-Add the following line to the end of your `.bashrc`:
+Add the following lines to the end of your `.bashrc`:
 
 ```
 export XILINX_LOCAL_USER_DATA=no
 export XILINXD_LICENSE_FILE=/opt/Xilinx/Xilinx.lic
 export MLIB_DEVEL_PATH=$HOME/casper/mlib_devel
+```
+and run 
+```
+source ~/.bashrc
 ```
 
 ## Set up miniconda3 virtual environment and activate it
@@ -38,10 +42,7 @@ by running conda init? [yes|no]
 [no] >>> yes
 
 ```
-Close and re-open your current shell. Your prompt should now look like this:
-```
-(base) donald@rfsoc:~/casper$
-```
+Close and re-open your current shell. 
 
 Create casper environment using a definition file (thanks to Mitch Burnett for providing the original file!) that can be downloaded from here: [casper-env.yml](https://raw.githubusercontent.com/KajWiik/Casper_RFSoC/main/casper-env.yml).
 
