@@ -89,6 +89,7 @@ git clone https://github.com/casper-astro/tutorials_devel.git
 
 Start the toolflow by running
 ```
+cd ~/casper/mlib_devel
 ./startsg
 ```
 
